@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.nav-link{
+    color: #fff !important ;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: rgb(231, 241, 241) !important;
+}
+#navmenu{
+    text-align: right !important;
+    margin-top: 10px;
+}
+.text-dark{
+    font-weight: bold;
+}
+.btn-dark:hover{
+    background: rgba(111, 111,111, 0.5);
+}
+
+.email{
+    overflow: hidden;
+    padding: 5px !important;
+    border-radius: 5px;
+}
+
+
+@media(min-width:768px){
+    .news{
+        width: 50%;
+    }
+   
+}
+@media (min-width:1440px){
+    .email{
+        width:50%;
+    }
+}
